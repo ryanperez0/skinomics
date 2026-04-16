@@ -10,3 +10,6 @@ A project dedicated to applying financial modeling and data-driven strategies to
 * **Language**: Python (Pandas)
 * **Database**: SQL (SQLite)
 * **Visualization**: Plotly
+
+## Progress Report
+* **16/04/25** Created repo and calc.py, focusing on the business logic and distinction between Steam's service and 3rd party markets
