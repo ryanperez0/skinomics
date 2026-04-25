@@ -9,7 +9,7 @@ MIN_VOLUME_HURDLE = 50
 
 # 2. Loading data from CSV with try/except block
 try:
-    df = pd.read_csv(r'C:\Users\ryanp\Desktop\Extra\Skinomics\data\market_assets1.csv')
+    df = pd.read_csv('data\market_assets1.csv')
 except FileNotFoundError:
     print("Error: 'market_assets1.csv' not found. Ensure it is in the same folder as this script.")
     exit()
