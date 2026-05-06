@@ -7,7 +7,7 @@ CSFLOAT_WITHDRAW = 0.02
 SLIPPAGE = 0.01
 MIN_VOLUME_HURDLE = 50
 
-# 2. Loading data from CSV with try/except block
+# 2. Loading data from CSV (in skinomics/data repo) with try/except block
 try:
     df = pd.read_csv('data\market_assets1.csv')
 except FileNotFoundError:
